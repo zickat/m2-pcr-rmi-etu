@@ -1,0 +1,7 @@
+// si useCodebaseOnly est positionné à true (valeur par défaut)
+
+rmiregistry -J-Djava.rmi.server.codebase=file:/Users/franck/Documents/02_Enseignements/56_ProgConcRep/wspresentation/m2-pcr-rmi-etu/target/classes/ &
+
+// si useCodebaseOnly est positionné à false
+
+rmiregistry -J-Djava.rmi.server.useCodebaseOnly=false &
