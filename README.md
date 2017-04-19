@@ -13,6 +13,7 @@
 Oracle met à disposition un [guide de démarrage avec RMI](https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/hello/hello-world.html).
 Étudiez et implantez dans votre projet l'exemple proposé par ce guide de démarrage.
 Vérifiez en lançant les différents composants de l'architecture distribuée que tout fonctionne comme attendu.
+En cas de problème au lancement du serveur, ce lien peut-être util : http://docs.oracle.com/javase/7/docs/technotes/guides/rmi/enhancements-7.html
 
 
 #### Exercice 1.2
