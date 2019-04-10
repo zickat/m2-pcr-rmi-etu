@@ -20,5 +20,15 @@ L'objectif de cette activité est le développement d'un serveur et d'un client 
 1. Implantez un serveur de discussion en mode synchrone exposant ses opérations clés via RMI.
 2. Implantez un client RMI de votre serveur de discussion en utilisant les librairies d'interface de votre choix (JavaFX, Swing, ligne de commande).
  
+### Aide pour lancer RMI
 
+Lancer le serveur RMI:
+```
+rmiregistry -J-Djava.rmi.server.codebase=file:/{Project-Path}/m2-pcr-rmi-etu/target/classes/
+```
 
+Lancer un main:
+Ajouter dans la configuration d'Intellij, dans VM Options
+```
+-Djava.rmi.server.codebase=file:/{Project-Path}/m2-pcr-rmi-etu/target/classes/
+```
