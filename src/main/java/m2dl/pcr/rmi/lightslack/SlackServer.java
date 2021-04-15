@@ -41,6 +41,7 @@ public class SlackServer implements IServer{
             IServer stub = (IServer) UnicastRemoteObject.exportObject(obj, 0);
 
             // Bind the remote object's stub in the registry
+            LocateRegistry.createRegistry(1099);
             Registry registry = LocateRegistry.getRegistry();
             registry.bind("IServer", stub);
 
