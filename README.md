@@ -19,6 +19,8 @@ L'objectif de cette activité est le développement d'un serveur et d'un client 
 
 1. Implantez un serveur de discussion en mode synchrone exposant ses opérations clés via RMI.
 2. Implantez un client RMI de votre serveur de discussion en utilisant les librairies d'interface de votre choix (JavaFX, Swing, ligne de commande).
+3. Nous allons maintenant améliorer notre serveur. Le but étant de pouvoir avoir plusieurs salon de conversation dans lequel plusieures personnes pourront discuter. Concevez ce système (en regardant les avantages et les inconvéniants) puis implémentez le.
+4. Enfin, deux clients veulent pouvoir se parler directement, sans que personne d'autres puisse voir les messages. Concevez ce système (en regardant les avantages et les inconvéniants) puis implémentez le.
  
 ### Aide pour lancer RMI
 
